@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HtmlUnitDriver" />
+        <module name="HtmlUnitDriverTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="HtmlUnitDriver" target="1.5" />
+      <module name="HtmlUnitDriverTest" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
