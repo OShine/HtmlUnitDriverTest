@@ -49,14 +49,6 @@ public class HtmlUnitDriverTest {
         WebElement loginElement = driver.findElement(MAILBOX_AUTH_BUTTON);
         loginElement.click();
 
-//        BufferedImage image = null;
-//        try {
-//            image = new Robot().createScreenCapture(new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()));
-//        } catch (AWTException e) {
-//            e.printStackTrace();
-//        }
-//        ImageIO.write(image, "png", new File("screenshot.png"));
-
         File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         // Now you can do whatever you need to do with it, for example copy somewhere
         try {
